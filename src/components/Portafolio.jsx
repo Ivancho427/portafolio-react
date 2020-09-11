@@ -11,19 +11,21 @@ export default class Portafolio extends Component {
         return (
 
         <section id="portafolio">
-            <Card.Body className="desarrollador mt-5"><h1><span><strong>Desarrollador Web</strong></span></h1>
+            <Card.Body className="desarrollador_web mt-5"><h1><span><strong>Desarrollador Web</strong></span></h1>
+            <Card.Body className="desarro_web mt-3"><h3><span><strong>Proyectos realizados: </strong></span></h3>
+            </Card.Body>
             </Card.Body>
             <Row>
                 <Col>
                     <Card.Body ClassName="Cards mb-5" >
                         <Card.Img style={{ border: "3px solid firebrick" }} className="project-image mt-5 w-55 h-60" src={ImagenTributo} alt="Imagen Tributo" id="imagen-tributo" /><br /><br />
-                        <Button style={{ backgroundColor: "firebrick" }} id="tributo" href="https://ivancho427.github.io/Pagina-Tributo/" target="_blank" rel="noopener noreferrer" ><h6 >Página Tributo</h6></Button>
+                        <Button style={{ backgroundColor: "firebrick" }} id="tributo" href="https://ivancho427.github.io/Pagina-Tributo/" target="_blank" rel="noopener noreferrer" ><h6 >Tributo</h6></Button>
                     </Card.Body></Col>
 
                 <Col>
                     <Card.Body ClassName="Cards mb-5" >
                         <Card.Img style={{ border: "3px solid firebrick" }} className="project-image mt-5 w-55 h-60" src={ImagenEncuesta} alt="Imagen Encuesta" id="imagen-encuesta" /><br /><br />
-                        <Button style={{ backgroundColor: "firebrick" }} id="encuesta" href="https://ivancho427.github.io/Encuesta/" target="_blank" rel="noopener noreferrer" ><h6>Página Encuesta</h6></Button>
+                        <Button style={{ backgroundColor: "firebrick" }} id="encuesta" href="https://ivancho427.github.io/Encuesta/" target="_blank" rel="noopener noreferrer" ><h6>Encuesta</h6></Button>
                     </Card.Body>
                 </Col>
             </Row>
@@ -32,15 +34,16 @@ export default class Portafolio extends Component {
                 <Col>
                     <Card.Body ClassName="Cards mb-5" >
                         <Card.Img style={{ border: "3px solid firebrick" }} className="project-image mt-5 w-55 h-60" src={ImagenRelojes} alt="Imagen Relojes" id="imagen-encuesta" /><br /><br />
-                        <Button style={{ backgroundColor: "firebrick" }} className="bot-relojes mb-5" id="relojes" href="https://ivancho427.github.io/Landing-Page/" target="_blank" rel="noopener noreferrer" ><h6>Página Relojes</h6></Button>
+                        <Button style={{ backgroundColor: "firebrick" }} className="bot-relojes mb-5" id="relojes" href="https://ivancho427.github.io/Landing-Page/" target="_blank" rel="noopener noreferrer" ><h6>Relojes</h6></Button>
                     </Card.Body>
                 </Col>
 
                 <Col>
                     <Card.Body ClassName="Cards mb-5" >
                         <Card.Img style={{ border: "3px solid firebrick" }} className="project-image mt-5 w-55 h-60" src={ImagenPrecios} alt="Imagen Precios" id="imagen-precios" /><br /><br />
-                        <Button style={{ backgroundColor: "firebrick" }} className="bot-precios mb-5" id="precios" href="https://agileinnova.github.io/challenge-10-idmm-dams-equipo10/" target="_blank" rel="noopener noreferrer" ><h6>Página Precios</h6></Button>
-                    </Card.Body></Col>
+                        <Button style={{ backgroundColor: "firebrick" }} className="bot-precios mb-5" id="precios" href="https://agileinnova.github.io/challenge-10-idmm-dams-equipo10/" target="_blank" rel="noopener noreferrer" ><h6>Precios</h6></Button>
+                    </Card.Body>
+                </Col>
             </Row>                
             </section>
 
