@@ -1,13 +1,14 @@
 import React from 'react';
 import './style.css';
+
 import { Nav, Navbar } from 'react-bootstrap'
 
 function Navegacion() {
     return (       
-  <section className="barra-nav">
+  
 <Navbar className="navbar w-100" style={{ backgroundColor: "firebrick", opacity: "0.9"  }} expand="lg" >
-  {/* <Navbar.Brand style={{ color: "white"}} href="#portafolio">BIENVENIDO A MI PORTAFOLIO</Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+  <Navbar.Brand style={{ color: "white"}} href="#portafolio">BIENVENIDO A MI PORTAFOLIO</Navbar.Brand>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav >
       <Nav.Link  style={{ color: "white"}} eventKey={2} href="#Container-img">INICIO</Nav.Link>
@@ -16,7 +17,7 @@ function Navegacion() {
     </Nav>   
   </Navbar.Collapse>
 </Navbar>
-</section>
+        
     );
 }
 

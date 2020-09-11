@@ -11,10 +11,10 @@ export default class Portafolio extends Component {
         return (
 
         <section id="portafolio">
-         
-            <Card.Body className="desarro_web mt-3"><h1><strong><em>Proyectos: </em></strong></h1>
+            <Card.Body className="desarrollador_web mt-5"><h1><span><strong>Desarrollador Web</strong></span></h1>
+            <Card.Body className="desarro_web mt-3"><h3><span><strong>Proyectos realizados: </strong></span></h3>
             </Card.Body>
-            
+            </Card.Body>
             <Row>
                 <Col>
                     <Card.Body ClassName="Cards mb-5" >
