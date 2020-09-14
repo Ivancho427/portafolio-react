@@ -4,7 +4,7 @@
 
 #portafolio {
   background-image: url(../imagenes/Imagen\ Fondo.jpg);
-  border: 2px solid firebrick;
+  border: 2px solid rgb(67, 67, 168);
   opacity: 0.9;
   width: 100%;
   
@@ -12,6 +12,7 @@
 
 .navbar {
   z-index: 1;  
+  background: linear-gradient(to bottom, rgb(67, 67, 168), rgb(193, 190, 200));
 }
 
 

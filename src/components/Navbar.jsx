@@ -6,7 +6,7 @@ import { Nav, Navbar } from 'react-bootstrap'
 function Navegacion() {
     return (       
   
-<Navbar className="navbar w-100" style={{ backgroundColor: "firebrick", opacity: "0.9"  }} expand="lg" >
+<Navbar className="navbar w-100" style={{ opacity: "0.9"  }} expand="lg" >
   <Navbar.Brand style={{ color: "white"}} href="#portafolio">BIENVENIDO A MI PORTAFOLIO</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
