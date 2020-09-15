@@ -3,7 +3,9 @@ import ImagenTributo from '.././imagenes/Tributo.png'
 import ImagenEncuesta from '.././imagenes/Encuesta.png'
 import ImagenRelojes from '.././imagenes/Landing Page.png'
 import ImagenPrecios from '.././imagenes/Pagina Precios.png'
-import { Button, Card, Col, Row } from 'react-bootstrap'
+import ImagenQuotes from '.././imagenes/Quotes.png'
+import ImagenCalculadora from '.././imagenes/Calculadora.png'
+import { Card, Row } from 'react-bootstrap'
 
 
 export default class Portafolio extends Component {
@@ -11,41 +13,57 @@ export default class Portafolio extends Component {
         return (
 
         <section id="portafolio">
-            <Card.Body className="desarrollador_web mt-5"><h1><span><strong>Desarrollador Web</strong></span></h1>
-            <Card.Body className="desarro_web mt-3"><h3><span><strong>Proyectos realizados: </strong></span></h3>
-            </Card.Body>
-            </Card.Body>
-            <Row>
-                <Col>
-                    <Card.Body ClassName="Cards mb-5" >
-                        <Card.Img style={{ border: "2px solid rgb(67, 67, 168)"}} className="project-image mt-5 w-55 h-60" src={ImagenTributo} alt="Imagen Tributo" id="imagen-tributo" /><br /><br />
-                        <Button style={{ backgroundColor: "rgb(67, 67, 168)", border: "3px solid white"  }} id="tributo" href="https://ivancho427.github.io/Pagina-Tributo/" target="_blank" rel="noopener noreferrer" ><h6 >Tributo</h6></Button>
-                    </Card.Body></Col>
 
-                <Col>
-                    <Card.Body ClassName="Cards mb-5" >
-                        <Card.Img style={{ border: "2px solid rgb(67, 67, 168)" }} className="project-image mt-5 w-55 h-60" src={ImagenEncuesta} alt="Imagen Encuesta" id="imagen-encuesta" /><br /><br />
-                        <Button style={{ backgroundColor: "rgb(67, 67, 168)", border: "3px solid white" }} id="encuesta" href="https://ivancho427.github.io/Encuesta/" target="_blank" rel="noopener noreferrer" ><h6>Encuesta</h6></Button>
-                    </Card.Body>
-                </Col>
-            </Row>
+            <Card.Body className="desarro_web mt-3"><h3><span><strong>Proyectos </strong></span></h3>
+            </Card.Body>         
 
-            <Row>
-                <Col>
-                    <Card.Body ClassName="Cards mb-5" >
-                        <Card.Img style={{ border: "2px solid rgb(67, 67, 168)" }} className="project-image mt-5 w-55 h-60" src={ImagenRelojes} alt="Imagen Relojes" id="imagen-encuesta" /><br /><br />
-                        <Button style={{ backgroundColor: "rgb(67, 67, 168)", border: "3px solid white" }} className="bot-relojes mb-5" id="relojes" href="https://ivancho427.github.io/Landing-Page/" target="_blank" rel="noopener noreferrer" ><h6>Relojes</h6></Button>
-                    </Card.Body>
-                </Col>
+            <Row>  
+                <div class="banner">
+                    <img src={ImagenTributo} alt="Imagen Tributo" />
+                    <h1>Página Tributo</h1>
+                    <p>Página tributo a Atletico Nacional</p>
+                    <a href="https://ivancho427.github.io/Pagina-Tributo/" target="_blank" rel="noopener noreferrer">Ver página</a>
+                </div>
 
-                <Col>
-                    <Card.Body ClassName="Cards mb-5" >
-                        <Card.Img style={{ border: "2px solid rgb(67, 67, 168)" }} className="project-image mt-5 w-55 h-60" src={ImagenPrecios} alt="Imagen Precios" id="imagen-precios" /><br /><br />
-                        <Button style={{ backgroundColor: "rgb(67, 67, 168)", border: "3px solid white" }} className="bot-precios mb-5" id="precios" href="https://agileinnova.github.io/challenge-10-idmm-dams-equipo10/" target="_blank" rel="noopener noreferrer" ><h6>Precios</h6></Button>
-                    </Card.Body>
-                </Col>
-            </Row>                
-            </section>
+                <div class="banner">
+                    <img src={ImagenEncuesta} alt="Imagen Encuesta" />
+                    <h1>Página Encuesta</h1>
+                    <p>Página simulacro de encuesta</p>
+                    <a href="https://ivancho427.github.io/Encuesta" target="_blank" rel="noopener noreferrer">Ver página</a>
+                </div>
+
+                <div class="banner">
+                    <img src={ImagenRelojes} alt="Imagen Relojes" />
+                    <h1>Página Relojes</h1>
+                    <p>Página aterrizaje o Landing page</p>
+                    <a href="https://ivancho427.github.io/Landing-Page" target="_blank" rel="noopener noreferrer">Ver página</a>
+                </div>
+            </Row>  
+
+           <Row>  
+                <div class="banner">
+                    <img src={ImagenPrecios} alt="Imagen Precios" />
+                    <h1>Página Precios</h1>
+                    <p>Página simulación de precios</p>
+                    <a href="https://agileinnova.github.io/challenge-10-idmm-dams-equipo10" target="_blank" rel="noopener noreferrer">Ver página</a>
+                </div>
+
+                <div class="banner">
+                    <img src={ImagenQuotes} alt="Imagen Quotes" />
+                    <h1>Página Citas</h1>
+                    <p>Página de frases y sus autores</p>
+                    <a href="https://randon-quote-machine-git-master.ivancho427.vercel.app/" target="_blank" rel="noopener noreferrer">Ver página</a>
+                </div>
+
+                <div class="banner">
+                    <img src={ImagenCalculadora} alt="Imagen Calculadora" />
+                    <h1>Página Calculadora</h1>
+                    <p>Página simulación calculadora</p>
+                    <a href="https://calculator.ivancho427.vercel.app" target="_blank" rel="noopener noreferrer">Ver página</a>
+                </div>
+           </Row>        
+
+        </section>
 
         )
     }

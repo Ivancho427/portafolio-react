@@ -1,68 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: silver;
+}
+
+/* CSS component CNavbar */
+
+.navbar {
+  z-index: 2;  
+  background: linear-gradient(to bottom, #3d1e1e, #da2424);
+  border-bottom: 2px solid #752f2f;  
+}
+
+#basic-navbar-nav {
+  margin-left: 550px;  
+}
+
+@media(max-width:450px){
+  #basic-navbar-nav {
+    margin-left: auto;
+  }
+}
+
+.color_botones {
+  background: linear-gradient(to bottom, #742727, #ec0909);
+}
+
+/* CSS component Header */
+
+.header {
+  padding: 85px;
+}
+
+.imagen-header {
+  width: 25%;
+  height: 10%;
+  align-items: start;
+  border: none;
+  margin-right: auto;
+  z-index: 1;
+}
+
+@media(max-width:450px){
+  .imagen-header {
+    width: 100px;   
+  }
+}
+
+#Container-img {
+  display: flex;
+  flex-direction: row;
+  z-index: 1;   
+}
+
+article {
   width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  background:white;
+  transform: skewY(-5deg);
+  border-top: 6px solid #9b0909;
+  border-bottom: 6px solid #9b0909;
+  box-shadow: 2px 10px 70px -8px #0a0a0a;
+  max-width: 800px;
+  justify-content: start;
+}
+
+.texto-header {
+  transform: skewY(5deg);
+  font-family: 'Anton', sans-serif;
+}
+
+@media(max-width:450px){
+  .texto-header {
+    font-size: 15px;
+  }
+}
+
+/* CSS component Portafolio */
+
+.banner {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  border: solid 8px #000000;
+  border-radius: 20px;
+  margin: 50px auto;
+  background-color: rgba(0,0,0,1);
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;   
+}
+
+
+@media(max-width:450px){
+  .banner {
+    width: auto;
+  }
+}
+
+.banner img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition:all 0.4s ease-in-out;
+  -o-trasition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.banner h1 {
+  background-color:rgba(255,255,255,1); 
+  background: linear-gradient(to bottom, #742727, #ec0909);
+  font-size:20px;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition:all 0.4s ease-in-out;
+  -o-trasition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transform: translateY(-300px);
+  -moz-transform: translateY(-300px);
+  -ms-transform: translateY(-300px);
+  -o-transform: translateY(-300px);
+  -webkit-transform: translateY(-300px);
+  font-family: 'Anton', sans-serif;
+}
+
+.banner p {
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition:all 0.4s ease-in-out;
+  -o-trasition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transform: translateX(-300px);
+  -moz-transform: translateX(-300px);
+  -ms-transform: translateX(-300px);
+  -o-transform: translateX(-300px);
+  -webkit-transform: translateX(-300px);
+}
+
+.banner a {
+  background: linear-gradient(to bottom, #742727, #ec0909);
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition:all 0.4s ease-in-out;
+  -o-trasition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transform: translateX(400px);
+  -moz-transform: translateX(400px);
+  -ms-transform: translateX(400px);
+  -o-transform: translateX(400px);
+  -webkit-transform: translateX(400px);
+}
+
+.banner a:hover {
+  background-color: rgba(204, 204, 204, 1);
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;  
+}
+
+.banner:hover img {
+  transform: translateY(400px);
+  -moz-transform: translateX(400px);
+  -ms-transform: translateX(400px);
+  -o-transform: translateX(400px);
+  -webkit-transform: translateX(400px);
+}
+
+.banner:hover h1 {
+  transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+}
+
+.banner:hover p, .banner:hover a {
+  transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  -webkit-transform: translateX(0px);
 }
 
 #portafolio {
   background-image: url(../imagenes/Imagen\ Fondo.jpg);
-  border: 2px solid rgb(67, 67, 168);
+  border-top: 5px solid #9b0909;
+  border-bottom: 3px solid #9b0909;
   opacity: 0.9;
-  width: 100%;
-  
+  width: 100%;  
 }
 
-.navbar {
-  z-index: 1;  
-  background: linear-gradient(to bottom, rgb(67, 67, 168), rgb(193, 190, 200));
-}
-
-
-.desarrollador_web {
-
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-#mas-info {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.project-image {
+ border: 2px solid #742727;
 }
 
 
+/* CSS component Footer */
 
-
-
-
-
-
-/* .header {
-    width: 100%;
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;    
-    background-attachment: fixed;
-    min-width: 517px;
+.mas_inform {
+  text-decoration: underline;
+  font-family: 'Anton', sans-serif;
 }
 
-.header:before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;    
-    min-width: 325px;
-    background-image: linear-gradient(rgba(129, 39, 39, 0.1), rgb(65, 68, 77));
-    min-width: 517px;
-} */
-
-
-#nav-dropdown1{
-    background-color: white;
-    color: black;
-  }
-
-#nav-dropdown1:hover {
-  background-color: #333;
-  color: white;
+.desarro_web {
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 
+.redes-sociales{
+  justify-content: space-around;
+}
 
-/* background-color: rgba(255,255,255,.5); */
+.desarro_web {
+  font-family: 'Anton', sans-serif;
+}
