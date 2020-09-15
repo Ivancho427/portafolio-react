@@ -1,6 +1,6 @@
 import React from 'react'
 // import ImagenHeader from '.././imagenes/Header.jpg'
-import ImagenFotoHV from '.././imagenes/Foto HV.JPG'
+import ImagenFotoHV from '.././imagenes/Foto HV.png'
 
 function Header() {
     return (
@@ -17,12 +17,8 @@ function Header() {
                     Apasionado por la tecnología y el mundo digital.</p><hr/> 
                         
                 </div>  
-                </article> 
+                </article>
 
-                {/* <div className="info-personal">           
-                    <h4>Soy una persona con valores como la honestidad, respeto y compañerismo, con fácil adaptación a las políticas organizacionales con capacidad de trabajar en equipo o individualmente. Me gusta el deporte, viajar y compartir con mi familia</h4>
-                </div>   */}
-                
             </div>           
         </section>
     )

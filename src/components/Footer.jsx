@@ -25,7 +25,7 @@ function Footer() {
                 <a  href="#"> 
                 <FontAwesomeIcon className="whatsapp_ mt-4"icon={faWhatsapp} style={{color:"#9b0909", fontSize:"40"}} /></a><h5></h5>3007897403</h5>
         
-                <a className="boton-cv mb-3 mt-5" style={{ backgroundColor: "white", color:  "#9b0909" }} id="boton-cv" href={CV} target="_blank" rel="noopener noreferrer" size="sm" ><h5>Descarga mi CV</h5></a>
+                <a className="boton-cv mb-3 mt-5" style={{ backgroundColor: "white", color:  "#9b0909" }} id="boton-cv" href={CV} target="_blank" rel="noopener noreferrer" size="sm" ><h5>CV - Iván Darío Mejía</h5></a>
 
             </Row>
        </div>

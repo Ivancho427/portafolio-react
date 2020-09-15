@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: silver;
+  background-color: #F5F5F5;
 }
 
 /* CSS component CNavbar */
@@ -44,12 +44,15 @@ body {
   border: none;
   margin-right: auto;
   z-index: 1;
+   
 }
 
 @media(max-width:450px){
   .imagen-header {
     width: 100px;   
   }
+
+
 }
 
 #Container-img {
@@ -90,7 +93,8 @@ article {
   width: 400px;
   height: 300px;
   position: relative;
-  border: solid 8px #000000;
+  border: solid 9px #000000;
+  opacity: 0.9;
   border-radius: 20px;
   margin: 50px auto;
   background-color: rgba(0,0,0,1);
@@ -100,7 +104,6 @@ article {
   text-align: center;
   color: white;   
 }
-
 
 @media(max-width:450px){
   .banner {
@@ -209,7 +212,6 @@ article {
   background-image: url(../imagenes/Imagen\ Fondo.jpg);
   border-top: 5px solid #9b0909;
   border-bottom: 3px solid #9b0909;
-  opacity: 0.9;
   width: 100%;  
 }
 
