@@ -10,7 +10,7 @@ function Navegacion() {
   <Navbar.Brand style={{ color: "white"}} href="#portafolio">BIENVENIDO A MI PORTAFOLIO</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
-    <Nav >
+    <Nav >     
       <Nav.Link style={{ color: "white"}} eventKey={2} href="#Container-img">INICIO</Nav.Link>
       <Nav.Link style={{ color: "white"}} eventKey={2} href="#portafolio">PORTAFOLIO</Nav.Link>
       <Nav.Link style={{ color: "white"}} eventKey={2} href="#mas-info">CONTACTO</Nav.Link>

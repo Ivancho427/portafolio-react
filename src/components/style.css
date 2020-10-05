@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-}
+
 
 body {
   background-color: #F5F5F5;
@@ -30,6 +27,7 @@ body {
 .color_botones {
   background: linear-gradient(to bottom, #742727, #ec0909);
 }
+
 
 /* CSS component Header */
 
@@ -211,7 +209,7 @@ article {
   -webkit-transform: translateX(0px);
 }
 
-#portafolio {
+.portafolio {
   background-image: url(../imagenes/Imagen\ Fondo.jpg);
   border-top: 5px solid #9b0909;
   border-bottom: 3px solid #9b0909;

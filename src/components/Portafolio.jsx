@@ -12,7 +12,7 @@ export default class Portafolio extends Component {
     render() {
         return (
 
-        <section id="portafolio">
+        <section className="portafolio w-100">
 
             <Card.Body className="desarro_web mt-3"><h3><span><strong>Proyectos </strong></span></h3>
             </Card.Body>         

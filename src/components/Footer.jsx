@@ -18,7 +18,7 @@ function Footer() {
                 <a className="boton_portafolio mt-5 mb-3" href="https://github.com/Ivancho427" target="_blank" rel="noopener noreferrer" id="proyectos">
                 <FontAwesomeIcon icon={faGithub} style={{color:"#9b0909", fontSize:"40"}} /></a>
                 
-                <a className="boton_portafolio mt-5 mb-3" href="https://https://linkedin.com/in/iván-darío-mejía-muñoz-408b53162" target="_blank" rel="noopener noreferrer" id="proyectos">
+                <a className="boton_portafolio mt-5 mb-3" href="https://linkedin.com/in/iván-darío-mejía-muñoz-408b53162" target="_blank" rel="noopener noreferrer" id="proyectos">
                 <FontAwesomeIcon icon={faLinkedin} style={{color:"#9b0909", fontSize:"40"}} /></a>
                 <h5 style={{color:"#9b0909"}}>
 
