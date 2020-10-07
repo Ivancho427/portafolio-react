@@ -1,5 +1,6 @@
 import React from 'react'
-import ImagenFotoHV from '.././imagenes/Foto HV.png'
+// import ImagenFotoHV from '.././imagenes/Foto HV.png'
+import Ivan from '.././imagenes/Ivan.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCss3, faHtml5,faJs, faReact } from '@fortawesome/free-brands-svg-icons'
 
@@ -8,7 +9,7 @@ function Header() {
 
         <section className="header">
             <div id="Container-img" style={{opacity: "0.8"}}>
-                <img className="imagen-header mt-5" id="img" src={ImagenFotoHV} alt="Foto Header" />
+                <img className="imagen-header mt-5 rounded-circle" id="img" src={Ivan} alt="Foto Header" />
 
                 <article>
                 <div className="texto-header">
