@@ -36,14 +36,12 @@ body {
 }
 
 .imagen-header {
-  width: 25%;
-  height: 10%;
+  width: 30%;
+  height: 20%;
   align-items: start;
   border: none;
   margin-right: auto;
-  z-index: 1;
-  border: 5px solid #9b0909;
-   
+  z-index: 1;  
 }
 
 @media(max-width:700px){
@@ -244,5 +242,20 @@ article {
 
 .hecho-por {
   margin: 60px auto;
-  
+}
+
+#icon-github:hover {
+  transform: translateY(-7px);
+}
+
+#icon-linkedin:hover {
+  transform: translateY(-7px);
+}
+
+#icon-whatsapp:hover{
+  transform: translateY(-7px);
+}
+
+#icon-CV:hover{
+  transform: translateY(-7px);
 }

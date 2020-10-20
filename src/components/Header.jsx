@@ -1,5 +1,4 @@
 import React from 'react'
-// import ImagenFotoHV from '.././imagenes/Foto HV.png'
 import Ivan from '.././imagenes/Ivan.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCss3, faHtml5,faJs, faReact } from '@fortawesome/free-brands-svg-icons'
